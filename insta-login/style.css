@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   
+}
+body{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+}
+.container{
+    margin-top: 30px;
+   max-width: 350px;
+   width: 100%;
+}
+
+
+.login-box{
+    background-color :#1e1e1e;
+    border: 1px solid #333;
+    border-radius: 1px;
+    padding: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.logo{
+font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+input{
+padding: 12px;
+background-color:black;
+color: white;
+width: 100%;
+height: 45px;
+border-radius: 3px;
+border: 1px solid #333;
+font-size: 14px;
+}
+input:focus{
+    outline: none;
+    border-color:#575050 ;
+}
+.login-btn{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+.login-btn:hover{
+    background-color: #0085e6;
+    transition: 0.15s;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #8e8e8e;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1px;
+    border-bottom: 1px solid #333;
+}
+
+.divider span {
+    padding: 0 20px;
+
+}
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    margin-bottom:20px;
+    color: #0095f6;
+    cursor: pointer;
+}
+.forgot-password{
+ color: #0085e6;
+ font-size: 10px;
+ text-decoration: none;
+}
+.signup-box{
+    width: 100%;
+    border:1px #333 solid;
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius:2px;
+    margin-bottom: 20px;
+
+}
+.signup-box a {
+    color: #0095f6;
+    
+}
+.signup-box p{
+    color: #8e8e8e;
+}
+.app-download {
+ text-align: center;
+
+}
+.app-download p{
+    margin-bottom: 20px;
+    color: #8e8e8e;
+}
+.app-liks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+img{
+    height: 40px;
+
+
+}
+
+
+
+
+
